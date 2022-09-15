@@ -32,7 +32,7 @@ class ConsoleMessagePrinter extends MessagePrinter {
 
     @Override
     void printMessage(String message) {
-        System.out.println("print to console: " + message);
+        System.out.println("print to console:\t" + message);
     }
 }
 
@@ -40,7 +40,7 @@ class FileMessagePrinter extends MessagePrinter {
 
     @Override
     void printMessage(String message) {
-        System.out.println("print to file: " + message);
+        System.out.println("print to file:\t\t" + message);
     }
 }
 
@@ -48,6 +48,6 @@ class DBMessagePrinter extends MessagePrinter {
 
     @Override
     void printMessage(String message) {
-        System.out.println("print to data base: " + message);
+        System.out.println("print to data base:\t" + message);
     }
 }
